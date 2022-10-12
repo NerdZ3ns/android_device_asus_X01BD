@@ -12,7 +12,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk
 # Inherit some common xdroidOSS stuff
 $(call inherit-product, vendor/xdroid/config/common.mk)
 XDROID_BOOT := 1080
-XDROID_MAINTAINER := nerd.zenss_
+XDROID_MAINTAINER := z3zens
 
 # Inherit from X01BD device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
