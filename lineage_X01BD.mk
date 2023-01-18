@@ -12,6 +12,22 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk
 # Inherit some common LineageOS stuff
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# Inherit some common ricedroidOSS stuff
+RICE_BUILDTYPE := COMMUNITY
+RICE_CHIPSET := "snapdragon 660"
+RICE_MAINTAINER := "NerdZ3ns"
+RICE_PACKAGE_TYPE := "PIXEL"
+SUSHI_BOOTANIMATION := 1080
+TARGET_BUILD_GRAPHENEOS_CAMERA := true
+TARGET_ENABLE_BLUR := false
+TARGET_HAS_UDFPS := false
+TARGET_KERNEL_OPTIONAL_LD := false
+TARGET_USE_PIXEL_FINGERPRINT := false
+WITH_GMS := true
+TARGET_OPTOUT_GOOGLE_TELEPHONY := true
+TARGET_CORE_GMS := true
+TARGET_CORE_GMS_EXTRAS := true
+
 # Inherit from X01BD device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
