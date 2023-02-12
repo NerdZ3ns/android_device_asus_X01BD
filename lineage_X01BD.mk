@@ -24,9 +24,7 @@ TARGET_HAS_UDFPS := false
 TARGET_KERNEL_OPTIONAL_LD := false
 TARGET_USE_PIXEL_FINGERPRINT := false
 WITH_GMS := true
-TARGET_OPTOUT_GOOGLE_TELEPHONY := true
-TARGET_CORE_GMS := true
-TARGET_CORE_GMS_EXTRAS := true
+TARGET_USE_GOOGLE_TELEPHONY := true
 
 # Inherit from X01BD device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
