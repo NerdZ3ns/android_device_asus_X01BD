@@ -14,9 +14,7 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Inherit some common ricedroidOSS stuff
 RICE_BUILDTYPE := COMMUNITY
-RICE_CHIPSET := "Snapdragon660"
-RICE_MAINTAINER := "z3zens"
-RICE_PACKAGE_TYPE := "PIXEL"
+RICE_MAINTAINER := z3zens
 SUSHI_BOOTANIMATION := 1080
 TARGET_BUILD_APERTURE_CAMERA := true
 TARGET_ENABLE_BLUR := false
